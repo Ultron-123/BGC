@@ -1,0 +1,8 @@
+{
+  "type": "ClusterFinderHMM",
+  "input_params" : {
+  },
+  "fit_params" : {
+    "param_dir": "#{CLUSTERFINDER_PKL_DIR}"
+  }
+}

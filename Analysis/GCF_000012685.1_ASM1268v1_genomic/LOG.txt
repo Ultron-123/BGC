@@ -1,0 +1,142 @@
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/detector/deepbgc.pkl
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:186: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/classifier/product_class.pkl
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/classifier/product_activity.pkl
+Processing input file 1/1: GCF_000012685.1_ASM1268v1_genomic.fna
+================================================================================
+Processing record #1: NC_008095.1
+Updating record molecule type to DNA
+Finding genes in record: NC_008095.1
+File "Pfam-A.31.0.clans.tsv" is not downloaded yet
+Traceback (most recent call last):
+  File "/home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/deepbgc/main.py", line 113, in main
+    run(argv)
+  File "/home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/deepbgc/main.py", line 102, in run
+    args.func.run(**args_dict)
+  File "/home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/deepbgc/command/pipeline.py", line 177, in run
+    step.run(record)
+  File "/home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/deepbgc/pipeline/annotator.py", line 34, in run
+    pfam_annotator = HmmscanPfamRecordAnnotator(record=record, tmp_path_prefix=record_tmp_path)
+  File "/home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/deepbgc/pipeline/pfam.py", line 28, in __init__
+    self.clans_path = clans_path or util.get_downloaded_file_path(PFAM_CLANS_FILE_NAME, versioned=False)
+  File "/home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/deepbgc/util.py", line 362, in get_downloaded_file_path
+    dir_msg)
+ValueError: ('File "Pfam-A.31.0.clans.tsv" is not downloaded yet', 'Use "deepbgc download" to download all dependencies', 'Or set DEEPBGC_DOWNLOADS_DIR env var.')
+================================================================================
+DeepBGC failed with ValueError: File "Pfam-A.31.0.clans.tsv" is not downloaded yet
+================================================================================
+Use "deepbgc download" to download all dependencies
+Or set DEEPBGC_DOWNLOADS_DIR env var.
+================================================================================
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/detector/deepbgc.pkl
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:186: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/classifier/product_class.pkl
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/classifier/product_activity.pkl
+Processing input file 1/1: GCF_000012685.1_ASM1268v1_genomic.fna
+================================================================================
+Processing record #1: NC_008095.1
+Updating record molecule type to DNA
+Finding genes in record: NC_008095.1
+Detecting Pfam domains in "NC_008095.1" using HMMER hmmscan, this might take a while...
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/detector/deepbgc.pkl
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:186: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+From /home/ultron/miniconda3/envs/deepbgc/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/classifier/product_class.pkl
+Loading model from: /home/ultron/.local/share/deepbgc/data/0.1.0/classifier/product_activity.pkl
+Processing input file 1/1: GCF_000012685.1_ASM1268v1_genomic.fna
+================================================================================
+Processing record #1: NC_008095.1
+Updating record molecule type to DNA
+Finding genes in record: NC_008095.1
+Not using existing but incomplete HMMER hmmscan output: GCF_000012685.1_ASM1268v1_genomic/tmp/NC_008095.1.pfam.domtbl.txt
+Detecting Pfam domains in "NC_008095.1" using HMMER hmmscan, this might take a while...
+HMMER hmmscan Pfam detection done in 4h59m60s
+Added 15296 Pfam domains (3242 unique PFAM_IDs)
+Detecting BGCs using deepbgc model in NC_008095.1
+Detected 72 BGCs using deepbgc model in NC_008095.1
+Classifying 72 BGCs using product_class model in NC_008095.1
+Classifying 72 BGCs using product_activity model in NC_008095.1
+Saving processed record NC_008095.1
+================================================================================
+Detected 72 total BGCs using deepbgc model
+Number of BGCs with predicted product_class: 
+ no confident class: 30
+ Polyketide: 21
+ NRP: 12
+ RiPP: 8
+ Terpene: 5
+ Saccharide: 5
+ Other: 3
+Number of BGCs with predicted product_activity: 
+ antibacterial: 44
+ no confident class: 21
+ cytotoxic: 5
+ inhibitor: 2
+ antifungal: 1
+================================================================================
+Saved DeepBGC result to: GCF_000012685.1_ASM1268v1_genomic

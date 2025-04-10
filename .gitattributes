@@ -1,0 +1,4 @@
+Word2Vec/* filter=lfs diff=lfs merge=lfs -text
+GeneSwap_Negatives.pfam.tsv filter=lfs diff=lfs merge=lfs -text
+pfam2vec.csv filter=lfs diff=lfs merge=lfs -text
+PKL_Files/* filter=lfs diff=lfs merge=lfs -text

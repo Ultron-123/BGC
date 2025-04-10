@@ -1,0 +1,820 @@
+{
+  "tool": {
+    "name": "DeepBGC",
+    "version": "0.1.31",
+    "description": "Putative BGCs predicted using DeepBGC",
+    "configuration": {
+      "deepbgc_name": "deepbgc",
+      "deepbgc_label": "deepbgc",
+      "deepbgc_version": "0.1.0",
+      "deepbgc_version_timestamp": "1551305667.986168",
+      "deepbgc_detection_timestamp_utc": "2025-01-27T17:15:02.829559",
+      "deepbgc_score_threshold": "0.5",
+      "deepbgc_merge_max_nucl_gap": "0",
+      "deepbgc_merge_max_protein_gap": "0",
+      "deepbgc_min_proteins": "1",
+      "deepbgc_min_domains": "1",
+      "deepbgc_min_bio_domains": "0"
+    }
+  },
+  "records": [
+    {
+      "name": "NC_008095.1",
+      "subregions": [
+        {
+          "start": 251453,
+          "end": 252881,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "RiPP",
+            "score": "0.50364"
+          }
+        },
+        {
+          "start": 572016,
+          "end": 576012,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.52222"
+          }
+        },
+        {
+          "start": 779741,
+          "end": 781094,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide-Terpene",
+            "score": "0.67981"
+          }
+        },
+        {
+          "start": 831557,
+          "end": 833437,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.64194"
+          }
+        },
+        {
+          "start": 943477,
+          "end": 952360,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.59893"
+          }
+        },
+        {
+          "start": 1185819,
+          "end": 1234123,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "Saccharide",
+            "score": "0.92467"
+          }
+        },
+        {
+          "start": 1501634,
+          "end": 1544028,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "NRP",
+            "score": "0.85611"
+          }
+        },
+        {
+          "start": 1545109,
+          "end": 1545913,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "RiPP",
+            "score": "0.52174"
+          }
+        },
+        {
+          "start": 1831996,
+          "end": 1836121,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "Other",
+            "score": "0.69460"
+          }
+        },
+        {
+          "start": 1837170,
+          "end": 1849559,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.67073"
+          }
+        },
+        {
+          "start": 1850627,
+          "end": 1852001,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "inhibitor",
+            "product_class": "no confident class",
+            "score": "0.57102"
+          }
+        },
+        {
+          "start": 1872311,
+          "end": 1916993,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "cytotoxic",
+            "product_class": "NRP",
+            "score": "0.84455"
+          }
+        },
+        {
+          "start": 1934112,
+          "end": 1939352,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.58818"
+          }
+        },
+        {
+          "start": 1943451,
+          "end": 1962426,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.66364"
+          }
+        },
+        {
+          "start": 1963153,
+          "end": 1966604,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial-antifungal",
+            "product_class": "Polyketide",
+            "score": "0.56801"
+          }
+        },
+        {
+          "start": 2065386,
+          "end": 2066823,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide-Terpene",
+            "score": "0.59219"
+          }
+        },
+        {
+          "start": 2092635,
+          "end": 2128443,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "RiPP",
+            "score": "0.82820"
+          }
+        },
+        {
+          "start": 2140039,
+          "end": 2169997,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.64179"
+          }
+        },
+        {
+          "start": 2211889,
+          "end": 2221922,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.72318"
+          }
+        },
+        {
+          "start": 2522503,
+          "end": 2522707,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.54776"
+          }
+        },
+        {
+          "start": 2529207,
+          "end": 2549326,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide",
+            "score": "0.76955"
+          }
+        },
+        {
+          "start": 2565933,
+          "end": 2567166,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.55002"
+          }
+        },
+        {
+          "start": 2568604,
+          "end": 2570179,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Other",
+            "score": "0.64634"
+          }
+        },
+        {
+          "start": 2574693,
+          "end": 2575953,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide",
+            "score": "0.51236"
+          }
+        },
+        {
+          "start": 2582586,
+          "end": 2583564,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "inhibitor",
+            "product_class": "Polyketide",
+            "score": "0.52515"
+          }
+        },
+        {
+          "start": 2588130,
+          "end": 2591019,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "cytotoxic",
+            "product_class": "no confident class",
+            "score": "0.63495"
+          }
+        },
+        {
+          "start": 2788105,
+          "end": 2792618,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "RiPP",
+            "score": "0.58410"
+          }
+        },
+        {
+          "start": 3031541,
+          "end": 3032330,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "Other",
+            "score": "0.51847"
+          }
+        },
+        {
+          "start": 3319076,
+          "end": 3336242,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "RiPP",
+            "score": "0.68949"
+          }
+        },
+        {
+          "start": 3785847,
+          "end": 3786816,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.58576"
+          }
+        },
+        {
+          "start": 3787452,
+          "end": 3788364,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.53755"
+          }
+        },
+        {
+          "start": 3791546,
+          "end": 3792794,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.56022"
+          }
+        },
+        {
+          "start": 3815840,
+          "end": 3817043,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Saccharide",
+            "score": "0.51915"
+          }
+        },
+        {
+          "start": 4012288,
+          "end": 4013497,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.51695"
+          }
+        },
+        {
+          "start": 4024939,
+          "end": 4040172,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide",
+            "score": "0.68871"
+          }
+        },
+        {
+          "start": 4105461,
+          "end": 4117032,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "cytotoxic",
+            "product_class": "no confident class",
+            "score": "0.71931"
+          }
+        },
+        {
+          "start": 4217988,
+          "end": 4357205,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "NRP-Polyketide",
+            "score": "0.94701"
+          }
+        },
+        {
+          "start": 4501280,
+          "end": 4552403,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "NRP-Polyketide",
+            "score": "0.77415"
+          }
+        },
+        {
+          "start": 4729982,
+          "end": 4809194,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "NRP-Polyketide",
+            "score": "0.96910"
+          }
+        },
+        {
+          "start": 4874487,
+          "end": 4910669,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "NRP-Polyketide",
+            "score": "0.83409"
+          }
+        },
+        {
+          "start": 4987822,
+          "end": 5026357,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "cytotoxic",
+            "product_class": "NRP-Polyketide",
+            "score": "0.86744"
+          }
+        },
+        {
+          "start": 5067898,
+          "end": 5069143,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide-Terpene",
+            "score": "0.56716"
+          }
+        },
+        {
+          "start": 5250929,
+          "end": 5320117,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "NRP-Polyketide",
+            "score": "0.79288"
+          }
+        },
+        {
+          "start": 5377078,
+          "end": 5378248,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.52263"
+          }
+        },
+        {
+          "start": 5378800,
+          "end": 5388725,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.64057"
+          }
+        },
+        {
+          "start": 5404736,
+          "end": 5474597,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "NRP-Polyketide",
+            "score": "0.91704"
+          }
+        },
+        {
+          "start": 5549550,
+          "end": 5691133,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "NRP-Polyketide",
+            "score": "0.81460"
+          }
+        },
+        {
+          "start": 5732742,
+          "end": 5807239,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.95529"
+          }
+        },
+        {
+          "start": 5968612,
+          "end": 5971047,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide",
+            "score": "0.53059"
+          }
+        },
+        {
+          "start": 6144180,
+          "end": 6200340,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "cytotoxic",
+            "product_class": "no confident class",
+            "score": "0.85420"
+          }
+        },
+        {
+          "start": 6574128,
+          "end": 6577712,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "RiPP",
+            "score": "0.55488"
+          }
+        },
+        {
+          "start": 6591592,
+          "end": 6592675,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.56835"
+          }
+        },
+        {
+          "start": 6632090,
+          "end": 6634458,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide",
+            "score": "0.62567"
+          }
+        },
+        {
+          "start": 6638571,
+          "end": 6647863,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Saccharide",
+            "score": "0.66988"
+          }
+        },
+        {
+          "start": 6683460,
+          "end": 6688892,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "Polyketide",
+            "score": "0.62094"
+          }
+        },
+        {
+          "start": 7382576,
+          "end": 7384524,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Saccharide-Terpene",
+            "score": "0.53940"
+          }
+        },
+        {
+          "start": 7385579,
+          "end": 7386644,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Polyketide",
+            "score": "0.55891"
+          }
+        },
+        {
+          "start": 7429395,
+          "end": 7433989,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "RiPP",
+            "score": "0.63188"
+          }
+        },
+        {
+          "start": 7706772,
+          "end": 7707588,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.51921"
+          }
+        },
+        {
+          "start": 7848519,
+          "end": 7849907,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "NRP",
+            "score": "0.60111"
+          }
+        },
+        {
+          "start": 7854097,
+          "end": 7856025,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.54137"
+          }
+        },
+        {
+          "start": 7863379,
+          "end": 7885426,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "Polyketide",
+            "score": "0.78940"
+          }
+        },
+        {
+          "start": 8156235,
+          "end": 8171345,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.77461"
+          }
+        },
+        {
+          "start": 8189660,
+          "end": 8193278,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "RiPP",
+            "score": "0.66469"
+          }
+        },
+        {
+          "start": 8379693,
+          "end": 8381235,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "NRP",
+            "score": "0.50473"
+          }
+        },
+        {
+          "start": 8431906,
+          "end": 8440961,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.73285"
+          }
+        },
+        {
+          "start": 8698765,
+          "end": 8708022,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.60178"
+          }
+        },
+        {
+          "start": 8872972,
+          "end": 8879829,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "no confident class",
+            "product_class": "no confident class",
+            "score": "0.62927"
+          }
+        },
+        {
+          "start": 8888370,
+          "end": 8888997,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.50909"
+          }
+        },
+        {
+          "start": 8890463,
+          "end": 8917628,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Terpene",
+            "score": "0.84241"
+          }
+        },
+        {
+          "start": 9025482,
+          "end": 9034875,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "no confident class",
+            "score": "0.63995"
+          }
+        },
+        {
+          "start": 9046172,
+          "end": 9048887,
+          "label": "Putative BGC",
+          "details": {
+            "detector": "deepbgc",
+            "product_activity": "antibacterial",
+            "product_class": "Saccharide",
+            "score": "0.56881"
+          }
+        }
+      ],
+      "protoclusters": []
+    }
+  ]
+}
